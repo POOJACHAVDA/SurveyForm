@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey form-1</title>
+    <link rel="stylesheet" href="survey.css">
+</head>
+<body>
+    <section class="div">
+        <div class="heading">
+        <h1>Employee Well-being Questionnaire</h1>
+        </div>
+    <article>
+        <form action="">
+            <label for="Name">Employee Name</label> <br>
+            <input type="text" name="firstName" id="firstName" class="box" placeholder="First Name" required>
+            <input type="text" name="lastName" id="lastName" class="box" placeholder="Last Name" required>
+            <br><br>
+            <label for="team">Department/Team</label> <br>
+           <input type="text" name="team" id="team" class="box" required><br> <br>
+           <label for="rate">On a scale 1 to 5 (1 being very dissatisfied and 5 being very satisfied), how satisfied are you with your current job?</label>
+           <table>
+            <tr>
+                <th>&nbsp;</th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+            </tr>
+            <tr>
+                <td>Work Life Balance</td>
+                <td><input type="radio"  name="balance" value="one"></td>
+                <td><input type="radio" name="balance" value="two"></td>
+                <td><input type="radio" name="balance" value="three"></td>
+                <td><input type="radio" name="balance" value="four"></td>
+                <td><input type="radio" name="balance" value="five"></td>
+            </tr>
+            <tr>
+                <td>Physical Health</td>
+                <td><input type="radio" name="health" value="one"></td>
+                <td><input type="radio" name="health" value="two"></td>
+                <td><input type="radio" name="health" value="three"></td>
+                <td><input type="radio" name="health" value="four"></td>
+                <td><input type="radio" name="health" value="five"></td>
+            </tr>
+            <tr>
+                <td>Safe Work Place</td>
+                <td><input type="radio" name="safe" value="one"></td>
+                <td><input type="radio" name="safe" value="two"></td>
+                <td><input type="radio" name="safe" value="three"></td>
+                <td><input type="radio" name="safe" value="four"></td>
+                <td><input type="radio" name="safe" value="five"></td>
+            </tr>
+           </table>
+           <br><br>
+           <label for="perks">Are you satisfied with the employee benefits and perks offered by the organization(e.g., healthcare, retirement plans, wellness programs, etc.)?</label><br>
+           <textarea name="perks" id="perks" cols="70" rows="5" required></textarea> <br><br>
+           <label for="feedback">Do you believe there are areas where the organization could improve the benefits it offers?</label> <br>
+           <textarea name="feedback" id="feedback" cols="70" rows="5" required></textarea><br><br>
+           <label for="concern">Do you often experience high level of stress or burnout in your job?</label> <br>
+           <textarea name="concern" id="concern" cols="70" rows="5" required></textarea><br><br>
+           <button type="submit">Submit</button>
+           <button type="reset">Reset</button>
+        </form>
+    </article>
+</section>
+    
+</body>
+</html>

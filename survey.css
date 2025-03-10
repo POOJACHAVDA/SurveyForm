@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 20px;
+    font-family: sans-serif;
+    text-align: left;
+    border: 1px solid black;
+    max-width: 50%;   
+}
+
+
+
+h1{
+    text-align: center;
+    border-bottom: 1px solid #333;
+    padding: 10px;
+    background: rgb(143, 103, 183);
+}
+
+form{
+    padding: 10px;
+    background-color: rgb(217, 205, 230);
+    font-size: 1.1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table,tr,td,th{
+  padding: 10px;
+}
+
+button{
+   padding: 8px;
+   width: 20%;
+   font-weight: bold;
+   font-size: 1.1rem;
+   background-color: rgb(143, 103, 183);
+}
+.box{
+    width: 40%;
+    height: 30px;
+    
+}
